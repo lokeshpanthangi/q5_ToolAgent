@@ -48,20 +48,7 @@ A powerful AI assistant that leverages Gemini and Python to solve problems by au
 
 ## 🔄 How It Works (Workflow)
 
-```
-┌─────────────────┐      ┌───────────────┐      ┌────────────────┐
-│                 │      │               │      │                │
-│   User Query    ├──────►  Query Analysis  ├──────►  Tool Selection  │
-│                 │      │               │      │                │
-└─────────────────┘      └───────────────┘      └────────┬───────┘
-                                                        │
-                                                        ▼
-┌─────────────────┐      ┌───────────────┐      ┌────────────────┐
-│                 │      │               │      │                │
-│  Final Answer   │◄─────┤Result Formatting◄─────┤  Action Execution │
-│                 │      │               │      │                │
-└─────────────────┘      └───────────────┘      └────────────────┘
-```
+![Workflow Diagram](image.png)
 
 **Detailed workflow**:
 
